@@ -1,3 +1,9 @@
+import NotFormCmp from "@/components/notForm";
+
 export default function Home() {
-  return <div>Test</div>;
+  return (
+    <div>
+      <NotFormCmp />
+    </div>
+  );
 }
